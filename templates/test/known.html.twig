@@ -9,13 +9,13 @@
     </style>
 
     <div class="example-wrapper">
-        <h1>Hello {{ controller_name }} : seznam jazyků</h1>
-        <a href="{{ path('test_known') }}">známé jazyky</a>
+        <h1>Hello {{ controller_name }} : známé jazyky</h1>
+        <a href="{{ path('test_list') }}">všechny jazyky</a>
 
         <table>
             <thead>
-                <th>Jazyk</th>
-                <th>Umím</th>
+            <th>Jazyk</th>
+            <th>Umím</th>
             </thead>
             <tbody>
             {% for language in languages %}
